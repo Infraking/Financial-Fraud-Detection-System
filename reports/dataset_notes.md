@@ -1,6 +1,6 @@
 # PaySim Dataset Notes
 
-## 📊 Dataset Overview
+##  Dataset Overview
 - **Name:** PaySim Synthetic Financial Dataset
 - **Source:** Kaggle - "Synthetic Financial Datasets For Fraud Detection"
 - **Size:** ~6.3 million rows
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Column Definitions
+##  Column Definitions
 
 | Column | Type | Description |
 |--------|------|-------------|
@@ -26,7 +26,7 @@
 
 ---
 
-## 🔍 Key Insights for Feature Engineering
+##  Key Insights for Feature Engineering
 
 ### 1. Fraud Distribution
 - **Fraud is EXTREMELY rare:** Only ~0.1-0.3% of transactions are fraudulent
@@ -34,5 +34,4 @@
 
 ### 2. Fraud Only Happens in Two Transaction Types
 ```python
-# Run this in your EDA
 df.groupby('type')['isFraud'].sum()
