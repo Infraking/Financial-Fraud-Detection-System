@@ -4,7 +4,6 @@ scikit-learn
 matplotlib
 seaborn
 xgboost
-logistic regression
 imbalanced-learn
 shap
 streamlit
